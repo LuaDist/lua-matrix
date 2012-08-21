@@ -3,7 +3,7 @@
 name = "lua-matrix"
 version = "0.2.8"
 
-desc = "'LuaMatrix' provides a good selection of matrix functions."
+desc = "LuaMatrix - provides a good selection of matrix functions."
 author = "Michael Lutz, David Manura"
 license = "MIT"
 url = "http://luaforge.net/projects/luamatrix/"
