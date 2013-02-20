@@ -1,0 +1,43 @@
+type = "x86"
+arch = "Windows"
+author = "Michael Lutz, David Manura"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "LuaMatrix - provides a good selection of matrix functions."
+version = "0.2.8"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib\lua\complex.lua]],
+[[lib\lua\matrix.lua]],
+}
+,
+Test = {
+[[share\lua-matrix\test\test_complex.lua]],
+[[share\lua-matrix\test\test_fit.lua]],
+[[share\lua-matrix\test\test.lua]],
+[[share\lua-matrix\test\test_matrix.lua]],
+}
+,
+Example = {
+[[share\lua-matrix\example\fit.lua]],
+}
+,
+Data = {
+[[share\lua-matrix\README.txt]],
+[[share\lua-matrix\LICENSE.txt]],
+}
+,
+Documentation = {
+[[share\lua-matrix\doc\complex_changelog.txt]],
+[[share\lua-matrix\doc\fit_changelog.txt]],
+[[share\lua-matrix\doc\matrix_changelog.txt]],
+}
+,
+}
+
+license = "MIT"
+name = "lua-matrix"
+url = "http://luaforge.net/projects/luamatrix/"
